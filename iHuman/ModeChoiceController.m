@@ -9,6 +9,7 @@
 #import "ModeChoiceController.h"
 #import "DanceController.h"
 #import "DrinkController.h"
+#import "HugViewController.h"
 
 
 @implementation ModeChoiceController
@@ -29,6 +30,16 @@
     [self.navigationController pushViewController:controllerToPush animated:YES];
     
     NSLog(@"Drink");
+    
+    [controllerToPush release];
+}
+
+-(IBAction)hug:(id)sender
+{
+    HugViewController* controllerToPush = [[HugViewController alloc]init];
+    [self.navigationController pushViewController:controllerToPush animated:YES];
+    
+    NSLog(@"Hug");
     
     [controllerToPush release];
 }

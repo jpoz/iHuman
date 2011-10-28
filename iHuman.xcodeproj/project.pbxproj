@@ -28,6 +28,10 @@
 		5CFB06E614590E2E00B8ACE2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB06E514590E2E00B8ACE2 /* AppDelegate.m */; };
 		5CFB06E914590E2E00B8ACE2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CFB06E814590E2E00B8ACE2 /* ViewController.m */; };
 		5CFB06EC14590E2E00B8ACE2 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CFB06EA14590E2E00B8ACE2 /* ViewController.xib */; };
+		8358DCA0145B6BA500FF0DD3 /* HugViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8358DC9E145B6BA500FF0DD3 /* HugViewController.m */; };
+		8358DCA1145B6BA500FF0DD3 /* HugViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8358DC9F145B6BA500FF0DD3 /* HugViewController.xib */; };
+		8358DCA4145B6BC500FF0DD3 /* Wants-To-Hug-You.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8358DCA3145B6BC500FF0DD3 /* Wants-To-Hug-You.gif */; };
+		8358DCA6145B6ED800FF0DD3 /* hug.html in Resources */ = {isa = PBXBuildFile; fileRef = 8358DCA5145B6ED800FF0DD3 /* hug.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +65,11 @@
 		5CFB06E714590E2E00B8ACE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5CFB06E814590E2E00B8ACE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5CFB06EB14590E2E00B8ACE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		8358DC9D145B6BA500FF0DD3 /* HugViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HugViewController.h; sourceTree = "<group>"; };
+		8358DC9E145B6BA500FF0DD3 /* HugViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HugViewController.m; sourceTree = "<group>"; };
+		8358DC9F145B6BA500FF0DD3 /* HugViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HugViewController.xib; sourceTree = "<group>"; };
+		8358DCA3145B6BC500FF0DD3 /* Wants-To-Hug-You.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Wants-To-Hug-You.gif"; sourceTree = "<group>"; };
+		8358DCA5145B6ED800FF0DD3 /* hug.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = hug.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +133,9 @@
 				5C189457145B40F7001E892C /* DrinkController.h */,
 				5C189458145B40F7001E892C /* DrinkController.m */,
 				5C189459145B40F7001E892C /* DrinkController.xib */,
+				8358DC9D145B6BA500FF0DD3 /* HugViewController.h */,
+				8358DC9E145B6BA500FF0DD3 /* HugViewController.m */,
+				8358DC9F145B6BA500FF0DD3 /* HugViewController.xib */,
 				5CFB06DC14590E2E00B8ACE2 /* Supporting Files */,
 			);
 			path = iHuman;
@@ -135,6 +147,7 @@
 				5C1894AA145B43EC001E892C /* QuartzCore.framework */,
 				5C1894A5145B4129001E892C /* beer-bottle.png */,
 				5C9A27901459300200655080 /* mode_button.png */,
+				8358DCA3145B6BC500FF0DD3 /* Wants-To-Hug-You.gif */,
 				5CA380911459233C00FC0BFD /* title.png */,
 				5CA380921459233C00FC0BFD /* startbutton.png */,
 				5CB51C9B145A3CF900F171C7 /* background.png */,
@@ -142,6 +155,7 @@
 				5CFB06DE14590E2E00B8ACE2 /* InfoPlist.strings */,
 				5CFB06E114590E2E00B8ACE2 /* main.m */,
 				5CFB06E314590E2E00B8ACE2 /* iHuman-Prefix.pch */,
+				8358DCA5145B6ED800FF0DD3 /* hug.html */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -206,6 +220,9 @@
 				5CB51C9C145A3CF900F171C7 /* background.png in Resources */,
 				5C18945B145B40F7001E892C /* DrinkController.xib in Resources */,
 				5C1894A6145B4129001E892C /* beer-bottle.png in Resources */,
+				8358DCA1145B6BA500FF0DD3 /* HugViewController.xib in Resources */,
+				8358DCA4145B6BC500FF0DD3 /* Wants-To-Hug-You.gif in Resources */,
+				8358DCA6145B6ED800FF0DD3 /* hug.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,6 +240,7 @@
 				5C9A27951459307F00655080 /* DanceController.m in Sources */,
 				5C18945A145B40F7001E892C /* DrinkController.m in Sources */,
 				5C1894A9145B430C001E892C /* UIView+i7Rotate360.m in Sources */,
+				8358DCA0145B6BA500FF0DD3 /* HugViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
