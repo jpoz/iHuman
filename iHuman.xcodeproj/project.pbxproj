@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C18945A145B40F7001E892C /* DrinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C189458145B40F7001E892C /* DrinkController.m */; };
+		5C18945B145B40F7001E892C /* DrinkController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C189459145B40F7001E892C /* DrinkController.xib */; };
+		5C1894A6145B4129001E892C /* beer-bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1894A5145B4129001E892C /* beer-bottle.png */; };
+		5C1894A9145B430C001E892C /* UIView+i7Rotate360.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1894A8145B430C001E892C /* UIView+i7Rotate360.m */; };
+		5C1894AB145B43EC001E892C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1894AA145B43EC001E892C /* QuartzCore.framework */; };
+		5C9A27911459300200655080 /* mode_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C9A27901459300200655080 /* mode_button.png */; };
+		5C9A27951459307F00655080 /* DanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9A27931459307F00655080 /* DanceController.m */; };
+		5C9A27961459307F00655080 /* DanceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9A27941459307F00655080 /* DanceController.xib */; };
+		5CA380931459233C00FC0BFD /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA380911459233C00FC0BFD /* title.png */; };
+		5CA380941459233C00FC0BFD /* startbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CA380921459233C00FC0BFD /* startbutton.png */; };
+		5CA38098145924BA00FC0BFD /* ModeChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA38096145924BA00FC0BFD /* ModeChoiceController.m */; };
+		5CA38099145924BA00FC0BFD /* ModeChoiceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5CA38097145924BA00FC0BFD /* ModeChoiceController.xib */; };
+		5CB51C9C145A3CF900F171C7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CB51C9B145A3CF900F171C7 /* background.png */; };
 		5CFB06D614590E2E00B8ACE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFB06D514590E2E00B8ACE2 /* UIKit.framework */; };
 		5CFB06D814590E2E00B8ACE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFB06D714590E2E00B8ACE2 /* Foundation.framework */; };
 		5CFB06DA14590E2E00B8ACE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CFB06D914590E2E00B8ACE2 /* CoreGraphics.framework */; };
@@ -18,17 +31,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C189457145B40F7001E892C /* DrinkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrinkController.h; path = ../DrinkController.h; sourceTree = "<group>"; };
+		5C189458145B40F7001E892C /* DrinkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrinkController.m; path = ../DrinkController.m; sourceTree = "<group>"; };
+		5C189459145B40F7001E892C /* DrinkController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DrinkController.xib; path = ../DrinkController.xib; sourceTree = "<group>"; };
+		5C1894A5145B4129001E892C /* beer-bottle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beer-bottle.png"; sourceTree = "<group>"; };
+		5C1894A7145B430C001E892C /* UIView+i7Rotate360.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+i7Rotate360.h"; sourceTree = "<group>"; };
+		5C1894A8145B430C001E892C /* UIView+i7Rotate360.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+i7Rotate360.m"; sourceTree = "<group>"; };
+		5C1894AA145B43EC001E892C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5C9A27901459300200655080 /* mode_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mode_button.png; path = images/mode_button.png; sourceTree = "<group>"; };
+		5C9A27921459307F00655080 /* DanceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanceController.h; sourceTree = "<group>"; };
+		5C9A27931459307F00655080 /* DanceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanceController.m; sourceTree = "<group>"; };
+		5C9A27941459307F00655080 /* DanceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DanceController.xib; sourceTree = "<group>"; };
+		5CA380911459233C00FC0BFD /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = title.png; path = images/title.png; sourceTree = "<group>"; };
+		5CA380921459233C00FC0BFD /* startbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = startbutton.png; path = images/startbutton.png; sourceTree = "<group>"; };
+		5CA38095145924BA00FC0BFD /* ModeChoiceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModeChoiceController.h; sourceTree = "<group>"; };
+		5CA38096145924BA00FC0BFD /* ModeChoiceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModeChoiceController.m; sourceTree = "<group>"; };
+		5CA38097145924BA00FC0BFD /* ModeChoiceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ModeChoiceController.xib; sourceTree = "<group>"; };
+		5CB51C9B145A3CF900F171C7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		5CFB06D114590E2E00B8ACE2 /* iHuman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHuman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CFB06D514590E2E00B8ACE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5CFB06D714590E2E00B8ACE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CFB06D914590E2E00B8ACE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5CFB06DD14590E2E00B8ACE2 /* iHuman-Info.plist */ = {isa = PBXFileReference; path = "iHuman-Info.plist"; sourceTree = "<group>"; };
+		5CFB06DD14590E2E00B8ACE2 /* iHuman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iHuman-Info.plist"; sourceTree = "<group>"; };
 		5CFB06DF14590E2E00B8ACE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5CFB06E114590E2E00B8ACE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CFB06E314590E2E00B8ACE2 /* iHuman-Prefix.pch */ = {isa = PBXFileReference; path = "iHuman-Prefix.pch"; sourceTree = "<group>"; };
-		5CFB06E414590E2E00B8ACE2 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CFB06E314590E2E00B8ACE2 /* iHuman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iHuman-Prefix.pch"; sourceTree = "<group>"; };
+		5CFB06E414590E2E00B8ACE2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CFB06E514590E2E00B8ACE2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5CFB06E714590E2E00B8ACE2 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		5CFB06E714590E2E00B8ACE2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5CFB06E814590E2E00B8ACE2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5CFB06EB14590E2E00B8ACE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1894AB145B43EC001E892C /* QuartzCore.framework in Frameworks */,
 				5CFB06D614590E2E00B8ACE2 /* UIKit.framework in Frameworks */,
 				5CFB06D814590E2E00B8ACE2 /* Foundation.framework in Frameworks */,
 				5CFB06DA14590E2E00B8ACE2 /* CoreGraphics.framework in Frameworks */,
@@ -82,6 +113,17 @@
 				5CFB06E714590E2E00B8ACE2 /* ViewController.h */,
 				5CFB06E814590E2E00B8ACE2 /* ViewController.m */,
 				5CFB06EA14590E2E00B8ACE2 /* ViewController.xib */,
+				5C1894A7145B430C001E892C /* UIView+i7Rotate360.h */,
+				5C1894A8145B430C001E892C /* UIView+i7Rotate360.m */,
+				5CA38095145924BA00FC0BFD /* ModeChoiceController.h */,
+				5CA38096145924BA00FC0BFD /* ModeChoiceController.m */,
+				5CA38097145924BA00FC0BFD /* ModeChoiceController.xib */,
+				5C9A27921459307F00655080 /* DanceController.h */,
+				5C9A27931459307F00655080 /* DanceController.m */,
+				5C9A27941459307F00655080 /* DanceController.xib */,
+				5C189457145B40F7001E892C /* DrinkController.h */,
+				5C189458145B40F7001E892C /* DrinkController.m */,
+				5C189459145B40F7001E892C /* DrinkController.xib */,
 				5CFB06DC14590E2E00B8ACE2 /* Supporting Files */,
 			);
 			path = iHuman;
@@ -90,6 +132,12 @@
 		5CFB06DC14590E2E00B8ACE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C1894AA145B43EC001E892C /* QuartzCore.framework */,
+				5C1894A5145B4129001E892C /* beer-bottle.png */,
+				5C9A27901459300200655080 /* mode_button.png */,
+				5CA380911459233C00FC0BFD /* title.png */,
+				5CA380921459233C00FC0BFD /* startbutton.png */,
+				5CB51C9B145A3CF900F171C7 /* background.png */,
 				5CFB06DD14590E2E00B8ACE2 /* iHuman-Info.plist */,
 				5CFB06DE14590E2E00B8ACE2 /* InfoPlist.strings */,
 				5CFB06E114590E2E00B8ACE2 /* main.m */,
@@ -150,6 +198,14 @@
 			files = (
 				5CFB06E014590E2E00B8ACE2 /* InfoPlist.strings in Resources */,
 				5CFB06EC14590E2E00B8ACE2 /* ViewController.xib in Resources */,
+				5CA380931459233C00FC0BFD /* title.png in Resources */,
+				5CA380941459233C00FC0BFD /* startbutton.png in Resources */,
+				5CA38099145924BA00FC0BFD /* ModeChoiceController.xib in Resources */,
+				5C9A27911459300200655080 /* mode_button.png in Resources */,
+				5C9A27961459307F00655080 /* DanceController.xib in Resources */,
+				5CB51C9C145A3CF900F171C7 /* background.png in Resources */,
+				5C18945B145B40F7001E892C /* DrinkController.xib in Resources */,
+				5C1894A6145B4129001E892C /* beer-bottle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +219,10 @@
 				5CFB06E214590E2E00B8ACE2 /* main.m in Sources */,
 				5CFB06E614590E2E00B8ACE2 /* AppDelegate.m in Sources */,
 				5CFB06E914590E2E00B8ACE2 /* ViewController.m in Sources */,
+				5CA38098145924BA00FC0BFD /* ModeChoiceController.m in Sources */,
+				5C9A27951459307F00655080 /* DanceController.m in Sources */,
+				5C18945A145B40F7001E892C /* DrinkController.m in Sources */,
+				5C1894A9145B430C001E892C /* UIView+i7Rotate360.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +267,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -225,7 +285,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -239,6 +299,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iHuman/iHuman-Prefix.pch";
 				INFOPLIST_FILE = "iHuman/iHuman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -250,6 +311,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iHuman/iHuman-Prefix.pch";
 				INFOPLIST_FILE = "iHuman/iHuman-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -274,6 +336,7 @@
 				5CFB06F114590E2E00B8ACE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

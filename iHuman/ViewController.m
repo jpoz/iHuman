@@ -7,8 +7,20 @@
 //
 
 #import "ViewController.h"
+#import "ModeChoiceController.h"
 
 @implementation ViewController
+
+
+- (IBAction)start:(id)sender
+{
+    ModeChoiceController* controllerToPush = [[ModeChoiceController alloc]init];
+    [self.navigationController pushViewController:controllerToPush animated:YES];
+    
+    NSLog(@"START");
+    
+    [controllerToPush release];
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -34,6 +46,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"background.png"]]];
 }
 
 - (void)viewDidAppear:(BOOL)animated

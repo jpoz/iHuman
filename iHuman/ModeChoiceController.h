@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ModeChoiceController.h
 //  iHuman
 //
 //  Created by James Pozdena on 10/26/11.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ModeChoiceController : UIViewController
 
-- (IBAction)start:(id)sender;
+-(IBAction)dance:(id)sender;
+-(IBAction)drink:(id)sender;
 
 @end
