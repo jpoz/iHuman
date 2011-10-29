@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0914B7145C99A9002DD84B /* hugbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0914B6145C99A9002DD84B /* hugbackground.png */; };
+		5C0914C2145C99BE002DD84B /* hug_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0914BD145C99BE002DD84B /* hug_14.png */; };
+		5C0914C7145C9A90002DD84B /* hug_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0914C3145C9A90002DD84B /* hug_01.png */; };
+		5C0914C8145C9A90002DD84B /* hug_04.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0914C4145C9A90002DD84B /* hug_04.png */; };
+		5C0914C9145C9A90002DD84B /* hug_08.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0914C5145C9A90002DD84B /* hug_08.png */; };
+		5C0914CA145C9A90002DD84B /* hug_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0914C6145C9A90002DD84B /* hug_11.png */; };
 		5C18945A145B40F7001E892C /* DrinkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C189458145B40F7001E892C /* DrinkController.m */; };
 		5C18945B145B40F7001E892C /* DrinkController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C189459145B40F7001E892C /* DrinkController.xib */; };
 		5C1894A6145B4129001E892C /* beer-bottle.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1894A5145B4129001E892C /* beer-bottle.png */; };
@@ -35,6 +41,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C0914B6145C99A9002DD84B /* hugbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hugbackground.png; sourceTree = "<group>"; };
+		5C0914BD145C99BE002DD84B /* hug_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hug_14.png; path = images/hug_14.png; sourceTree = "<group>"; };
+		5C0914C3145C9A90002DD84B /* hug_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hug_01.png; path = images/hug_01.png; sourceTree = "<group>"; };
+		5C0914C4145C9A90002DD84B /* hug_04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hug_04.png; path = images/hug_04.png; sourceTree = "<group>"; };
+		5C0914C5145C9A90002DD84B /* hug_08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hug_08.png; path = images/hug_08.png; sourceTree = "<group>"; };
+		5C0914C6145C9A90002DD84B /* hug_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hug_11.png; path = images/hug_11.png; sourceTree = "<group>"; };
 		5C189457145B40F7001E892C /* DrinkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DrinkController.h; path = ../DrinkController.h; sourceTree = "<group>"; };
 		5C189458145B40F7001E892C /* DrinkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DrinkController.m; path = ../DrinkController.m; sourceTree = "<group>"; };
 		5C189459145B40F7001E892C /* DrinkController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DrinkController.xib; path = ../DrinkController.xib; sourceTree = "<group>"; };
@@ -144,6 +156,12 @@
 		5CFB06DC14590E2E00B8ACE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5C0914C3145C9A90002DD84B /* hug_01.png */,
+				5C0914C4145C9A90002DD84B /* hug_04.png */,
+				5C0914C5145C9A90002DD84B /* hug_08.png */,
+				5C0914C6145C9A90002DD84B /* hug_11.png */,
+				5C0914BD145C99BE002DD84B /* hug_14.png */,
+				5C0914B6145C99A9002DD84B /* hugbackground.png */,
 				5C1894AA145B43EC001E892C /* QuartzCore.framework */,
 				5C1894A5145B4129001E892C /* beer-bottle.png */,
 				5C9A27901459300200655080 /* mode_button.png */,
@@ -223,6 +241,12 @@
 				8358DCA1145B6BA500FF0DD3 /* HugViewController.xib in Resources */,
 				8358DCA4145B6BC500FF0DD3 /* Wants-To-Hug-You.gif in Resources */,
 				8358DCA6145B6ED800FF0DD3 /* hug.html in Resources */,
+				5C0914B7145C99A9002DD84B /* hugbackground.png in Resources */,
+				5C0914C2145C99BE002DD84B /* hug_14.png in Resources */,
+				5C0914C7145C9A90002DD84B /* hug_01.png in Resources */,
+				5C0914C8145C9A90002DD84B /* hug_04.png in Resources */,
+				5C0914C9145C9A90002DD84B /* hug_08.png in Resources */,
+				5C0914CA145C9A90002DD84B /* hug_11.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

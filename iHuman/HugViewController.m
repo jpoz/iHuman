@@ -7,10 +7,121 @@
 //
 
 #import "HugViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation HugViewController
 
-@synthesize webView;
+@synthesize hugView, countLabel, flower1, flower2, flower3, flower4, flower5, flower6, flower7, flower8, animationInProgress;
+
+
+- (void)stepOne
+{
+    self.animationInProgress = YES;
+    [self.hugView setAlpha:0.0];
+    [self.countLabel setText:@"3"];
+    [self.countLabel setAlpha:1.0];
+
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.0
+                                     target:self
+                                   selector:@selector(stepTwo)
+                                   userInfo:nil
+                                    repeats:NO];
+
+    
+}
+
+
+- (void)stepTwo
+{
+    [self.countLabel setText:@"2"];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.0
+                                     target:self
+                                   selector:@selector(stepThree)
+                                   userInfo:nil
+                                    repeats:NO];
+    
+    
+}
+
+
+- (void)stepThree
+{
+    [self.countLabel setText:@"1"];
+    
+    [NSTimer scheduledTimerWithTimeInterval:1.0
+                                     target:self
+                                   selector:@selector(stepFour)
+                                   userInfo:nil
+                                    repeats:NO];
+    
+    
+}
+
+
+- (void)stepFour
+{
+    [self.countLabel setAlpha:0.0];
+    [self.hugView setAlpha:1.0];
+
+    [self spin:self.flower1];
+    [self spin:self.flower2];
+    [self spin:self.flower3];
+    [self spin:self.flower4];
+    [self spin:self.flower5];
+    [self spin:self.flower6];
+    [self spin:self.flower7];
+    [self spin:self.flower8];
+
+
+    [NSTimer scheduledTimerWithTimeInterval:5.0
+                                     target:self
+                                   selector:@selector(stepFive)
+                                   userInfo:nil
+                                    repeats:NO];
+    
+
+}
+
+-(void)stepFive
+{
+    self.animationInProgress = NO;
+    [self spinBack:self.flower1];
+    [self spinBack:self.flower2];
+    [self spinBack:self.flower3];
+    [self spinBack:self.flower4];
+    [self spinBack:self.flower5];
+    [self spinBack:self.flower6];
+    [self spinBack:self.flower7];
+    [self spinBack:self.flower8];
+
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    if (!self.animationInProgress) {
+        [self stepOne];
+    }
+}
+
+-(void)spin:(UIView *)aView
+{
+    [UIView animateWithDuration:5.0 animations:^{
+       CGAffineTransform transform = CGAffineTransformMakeRotation(-3.14159);
+        
+        aView.transform = transform;
+    }];
+}
+
+
+-(void)spinBack:(UIView *)aView
+{
+        CGAffineTransform transform = CGAffineTransformMakeRotation(3.14159);
+        aView.transform = transform;
+}
+
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -34,12 +145,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    [self stepOne];
     // Do any additional setup after loading the view from its nib.
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"hug" ofType:@"html"];
-    NSURL *url = [NSURL fileURLWithPath:path];
-    NSURLRequest *request = [NSURLRequest requestWithURL:url];
-    [webView loadRequest:request];  
 }
 
 - (void)viewDidUnload

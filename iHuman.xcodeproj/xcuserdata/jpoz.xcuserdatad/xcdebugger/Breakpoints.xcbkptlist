@@ -17,5 +17,69 @@
          landmarkName = "-start:"
          landmarkType = "5">
       </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         isPathRelative = "1"
+         filePath = "iHuman/HugViewController.m"
+         timestampString = "341615911.861678"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "14"
+         endingLineNumber = "14"
+         landmarkName = "hugView,countLabel,flower1,flower2,flower3,flower4,flower5,flower6,flower7,flower8,animationInProgress"
+         landmarkType = "19">
+         <Locations>
+            <Location
+               shouldBeEnabled = "No"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[HugViewController hugView]"
+               urlString = "file://localhost/Users/jpoz/Dropbox/Cocoa/iHuman/iHuman/HugViewController.m"
+               timestampString = "341615282.985126"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "13"
+               endingLineNumber = "13">
+            </Location>
+            <Location
+               shouldBeEnabled = "No"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[HugViewController setHugView:]"
+               urlString = "file://localhost/Users/jpoz/Dropbox/Cocoa/iHuman/iHuman/HugViewController.m"
+               timestampString = "341615282.986374"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "13"
+               endingLineNumber = "13">
+            </Location>
+            <Location
+               shouldBeEnabled = "No"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[HugViewController countLabel]"
+               urlString = "file://localhost/Users/jpoz/Dropbox/Cocoa/iHuman/iHuman/HugViewController.m"
+               timestampString = "341615282.986593"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "13"
+               endingLineNumber = "13">
+            </Location>
+            <Location
+               shouldBeEnabled = "No"
+               ignoreCount = "0"
+               continueAfterRunningActions = "No"
+               symbolName = "-[HugViewController setCountLabel:]"
+               urlString = "file://localhost/Users/jpoz/Dropbox/Cocoa/iHuman/iHuman/HugViewController.m"
+               timestampString = "341615282.986754"
+               startingColumnNumber = "9223372036854775807"
+               endingColumnNumber = "9223372036854775807"
+               startingLineNumber = "13"
+               endingLineNumber = "13">
+            </Location>
+         </Locations>
+      </FileBreakpoint>
    </FileBreakpoints>
 </Bucket>
